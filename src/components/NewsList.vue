@@ -34,24 +34,7 @@
             })
         }             
     }
-
-    export default {
-        name: 'NewsList',
-
-        data() {
-            return {
-                posts: []
-            }
-        },
-
-        created(){        
-            axios.get('https://newsapi.org/v2/everything?q=apple&from=2018-06-20&to=2018-06-20&sortBy=popularity&apiKey=6c13a32e23b643989e19a722674ca873')
-                .then(posts => {
-                    console.log(posts.data.articles);
-                    this.posts = posts.data.articles;
-            })
-        }             
-    }
+    
 </script>
 
 <style scoped>

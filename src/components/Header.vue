@@ -22,6 +22,7 @@
     background: #333;
     color: #fff;
     padding: 10px 0;
+    margin: 0;
   }
   ul {
     list-style-type: none;
